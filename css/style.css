@@ -1,0 +1,36 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1220px; /*изменить под себя*/
+    padding: 0 10px; /*изменить под себя*/
+    margin: 0 auto;
+}
+
+.header{
+    padding-top: 25px; /*изменить под себя*/
+}
+
+.nav{
+   display: flex;
+   justify-content: space-between; 
+}
+
+.menu-list{
+    display: flex;
+    gap: 0 40px; /*изменить под себя*/
+    padding-top: 25px; /*изменить под себя*/
+    list-style-type: none;
+}
