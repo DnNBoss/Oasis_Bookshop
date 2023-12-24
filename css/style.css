@@ -519,10 +519,6 @@ footer{
     text-align: right;
 }
 
-.right-element_footer_context{
-    text-align: right;
-}
-
 .right-element_footer_text{
     padding-right: 6px;
 }
@@ -534,12 +530,16 @@ footer{
 }
 
 .right-element_footer_social_networks_img{
-    padding: 6px;
+    padding: 0 6px 0 6px;
+    display: grid;  
+}
+
+.right-element_footer_social_networks_img a{
+    display: grid;
 }
 
 .right-element_footer_social_networks img{
-    padding: 0 0 0 8px;
-    width:32px;
+    width: 32px;
     height: 32px;
 }
 /* ----------end_footer---------- */
