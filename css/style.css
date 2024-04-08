@@ -56,6 +56,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 9;
 }
 
 #menu-button{
@@ -80,6 +82,11 @@ header{
     width: 17px;    
     align-self: flex-end;     
     border-radius: 4px; 
+    transition: transform 0.3s ease;
+}
+
+.left-element_header:hover .books {
+    transform: translateY(-10px) rotate(-5deg);
 }
 
 .book-red{
@@ -151,6 +158,16 @@ header{
     background-color: #8EFD5A;
 }
 
+.menu-item a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-item a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
 .right-element_header{
     text-align: right;
     display: flex;
@@ -211,6 +228,7 @@ header{
 
 /* ----------main---------- */
 main{
+    margin-top: 100px;
     width: 100%;
     background: linear-gradient(180deg, #696BB8 0%, #DDDDF4 51.46%, rgba(255, 255, 255, 0.91) 100%);
 }
